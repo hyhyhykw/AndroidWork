@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/txt_clv_group"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/clv_child_widget_size"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="@string/txt_phone_cache"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_clean_total"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/clv_child_widget_size"
+        android:layout_alignBaseline="@+id/txt_clv_group"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txt_clv_group"
+        android:gravity="center_vertical"
+        android:text="@string/clean_total_mem"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+1480294536946	Delete element
+1480298636730	Rename type 'CleanInfo'
+1480309732233	Rename type 'GroupViewHolder'
+1480312976572	Encapsulate field 'isChecked'
+1480320603133	Move compilation unit
+1480491518776	Rename resource 'soft_mgr_pgb_layer_list.xml'
+1480492275336	Rename resource 'soft_mgr_pgb_layer.xml'
+1480492478998	Copy file
+1480496411628	Rename method 'setVersionCode'
+1480496568656	Rename method 'setAppInfo'
+1480497980682	Encapsulate field 'isChecked'
+1480506465581	Encapsulate field 'pkgInfo'
+1480507753676	Encapsulate field 'isUserApp'

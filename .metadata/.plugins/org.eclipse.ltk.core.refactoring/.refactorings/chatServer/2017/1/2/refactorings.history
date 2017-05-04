@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 5 elements to &apos;chatServer/src/com.it&apos;&#x0D;&#x0A;- Original project: &apos;chatServer&apos;&#x0D;&#x0A;- Destination element: &apos;chatServer/src/com.it&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Server.java&#x0D;&#x0A;     Util.java&#x0D;&#x0A;     ClientModle.java&#x0D;&#x0A;     ChatModle.java&#x0D;&#x0A;     DB.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;com.it" element1="/src&lt;{Server.java" element2="/src&lt;{Util.java" element3="/src&lt;{ClientModle.java" element4="/src&lt;{ChatModle.java" element5="/src&lt;{DB.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1483926309141" units="5" version="1.0"/>
+</session>

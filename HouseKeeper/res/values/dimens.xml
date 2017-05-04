@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- lead page text margin -->
+    <dimen name="txt_lead_margin_top">10dp</dimen>
+    <dimen name="txt_lead_margin_right">10dp</dimen>
+    <dimen name="layout_lead_margin_bottom">60dp</dimen>
+
+    <!-- three point size -->
+    <dimen name="leadicon_width">10dp</dimen>
+    <dimen name="leadicon_height">10dp</dimen>
+    <dimen name="leadicon_margin">5dp</dimen>
+
+    <!-- title bar -->
+    <dimen name="actionbar_height">36dp</dimen>
+    <dimen name="actionbar_titlesize">16sp</dimen>
+    <dimen name="icon_width">35dp</dimen>
+    <dimen name="icon_height">35dp</dimen>
+
+    <!-- lead page text size -->
+    <dimen name="txt_lead_size">15sp</dimen>
+    <!-- title bar text size -->
+    <dimen name="txt_title">16sp</dimen>
+
+    <!-- home page speed widget -->
+    <dimen name="main_center_img_width">225dp</dimen>
+    <dimen name="main_center_img_height">225dp</dimen>
+    <dimen name="main_center_circle_arc_width">230dp</dimen>
+    <dimen name="main_center_circle_arc_height">230dp</dimen>
+
+    <!-- main menu GridView item padding -->
+    <dimen name="item_grd_padding">10dp</dimen>
+
+    <!-- text size of main surface center -->
+    <dimen name="home_cleararc_text_bottom">40dp</dimen>
+    <dimen name="home_cleararc_text_textsize">16sp</dimen>
+    <dimen name="home_cleararc_score_top">48dp</dimen>
+    <dimen name="home_cleararc_score_textsize">64sp</dimen>
+
+    <!-- setting page -->
+    <dimen name="set_item_textsize">15sp</dimen>
+    <dimen name="set_item_height">60dp</dimen>
+
+    <!-- file mgr page -->
+    <dimen name="layout_header_height">120dp</dimen>
+    <dimen name="txt_file_mgr_total_mem_size">44sp</dimen>
+    <dimen name="txt_already_found_size">14sp</dimen>
+    <dimen name="file_mgr_lst_item_height">60dp</dimen>
+    <dimen name="txt_file_num_size">22sp</dimen>
+    <dimen name="detail_page_btn_height">40dp</dimen>
+    <dimen name="file_detail_txt_size">10sp</dimen>
+    <dimen name="file_detail_widget_size">40dp</dimen>
+    <dimen name="bottom_widget_height">40dp</dimen>
+    <dimen name="clv_child_widget_size">40dp</dimen>
+    <dimen name="pie_chart_size">150dp</dimen>
+    <dimen name="pie_chart_rectf_size">15dp</dimen>
+    <dimen name="layout_phone_battery_height">160dp</dimen>
+    <dimen name="battery_height">100dp</dimen>
+    <dimen name="soft_mgr_txt_size">11sp</dimen>
+    <dimen name="process_txt_size">11sp</dimen>
+    <dimen name="speed_txt_occupy">10sp</dimen>
+
+</resources>

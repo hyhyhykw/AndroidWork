@@ -1,0 +1,29 @@
+1479746222384	Delete element
+1479780489270	Rename type 'TelInfoAdapter'
+1479780508692	Rename resource 'activity_tel_info.xml'
+1479781305204	Rename type 'TelNumShowActivity'
+1479793124289	Delete element
+1479799396129	Rename resource 'item_lst_setting_switch.xml'
+1479799403952	Rename resource 'item_lst_setting_text.xml'
+1479815304954	Delete element
+1479819264302	Rename resource 'item_grd_setting_switch.xml'
+1479819279582	Rename resource 'item_grd_setting_text.xml'
+1479862256827	Rename type 'FileListHolder'
+1479862311736	Rename type 'SwitchHolder'
+1479862324003	Rename type 'ItemTxtHolder'
+1479862334503	Rename type 'TelNumHolder'
+1479862357364	Rename type 'TelHolder'
+1479878006108	Rename resource 'btn_float.xml'
+1479878075766	Rename resource 'btn_float_normal.xml'
+1479878098543	Rename resource 'btn_float_pressed.xml'
+1479878115776	Rename resource 'btn_float_selector.xml'
+1479879630639	Delete element
+1479882185753	Rename type 'FileMgrDetailActivity'
+1479891911351	Rename type 'DataUtils'
+1479899421957	Delete element
+1479901452236	Rename method 'bindPoint'
+1479954744337	Encapsulate field 'isChecked'
+1479968165244	Rename field 'FILE_SEARCH_FINISH'
+1479973674844	Rename field 'ALL_SEARCH_FINISH'
+1479986239218	Copy compilation unit
+1480044900165	Encapsulate field 'fileSuffix'

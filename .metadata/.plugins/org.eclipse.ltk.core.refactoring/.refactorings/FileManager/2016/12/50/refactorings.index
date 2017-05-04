@@ -1,0 +1,23 @@
+1480836658475	Encapsulate field 'charsetCode'
+1480836661769	Encapsulate field 'isChecked'
+1480837375441	Rename local variable 'defaultVal'
+1480845809884	Rename field 'CHARSET_CODE_GD2312'
+1480847372944	Rename type 'TextEditActivity'
+1480850448747	Delete element
+1480934060208	Delete element
+1480939492386	Copy file
+1480940167414	Move files
+1480941239677	Encapsulate field 'sortMode'
+1480941332727	Encapsulate field 'isChecked'
+1480989099407	Copy compilation unit
+1480989136337	Rename type 'SortByTimeComparator'
+1480989159277	Copy compilation unit
+1480989215150	Copy compilation unit
+1481022814444	Rename field 'mTxtTextViewEmptyFolder'
+1481028267162	Rename resource 'activity_text_edit.xml'
+1481081670469	Move compilation unit
+1481083063421	Rename local variable 'fileDetailInfo'
+1481179891887	Rename local variable 'texts'
+1481199655227	Copy compilation unit
+1481199687959	Copy files
+1481286139814	Copy files

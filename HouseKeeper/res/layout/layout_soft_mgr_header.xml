@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_entry_item_normal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.zx.housekeeper.view.PieChartView
+            android:id="@+id/pie_chart"
+            android:layout_width="@dimen/pie_chart_size"
+            android:layout_height="@dimen/pie_chart_size" />
+
+        <View
+            android:id="@+id/view_inner_storage"
+            style="@style/pie_chart_text_style"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/pie_chart"
+            android:background="@color/storage_inner_color_blue" />
+
+        <View
+            android:id="@+id/view_outer_storage"
+            style="@style/pie_chart_text_style"
+            android:layout_below="@+id/view_inner_storage"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/pie_chart"
+            android:background="@color/storage_outer_color_green" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view_inner_storage"
+            android:layout_alignTop="@+id/view_inner_storage"
+            android:layout_marginLeft="@dimen/pie_chart_rectf_size"
+            android:layout_toRightOf="@+id/view_inner_storage"
+            android:gravity="center"
+            android:text="@string/txt_inner_memory"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view_outer_storage"
+            android:layout_alignTop="@+id/view_outer_storage"
+            android:layout_marginLeft="@dimen/pie_chart_rectf_size"
+            android:layout_toRightOf="@+id/view_outer_storage"
+            android:gravity="center"
+            android:text="@string/txt_outer_memory"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view_free_storage"
+            style="@style/pie_chart_text_style"
+            android:layout_below="@+id/view_outer_storage"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/pie_chart"
+            android:background="@color/text_file_num_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view_free_storage"
+            android:layout_alignTop="@+id/view_free_storage"
+            android:layout_marginLeft="@dimen/pie_chart_rectf_size"
+            android:layout_toRightOf="@+id/view_free_storage"
+            android:gravity="center"
+            android:text="@string/txt_free_memory"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_inner_memory"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ProgressBar
+        android:id="@+id/pgb_inner_storage"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:max="100"
+        android:progress="60"
+        android:progressDrawable="@drawable/soft_mgr_pgb_inner_layer" />
+
+    <TextView
+        android:id="@+id/txt_inner_mem_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:gravity="right"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/txt_outer_memory"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ProgressBar
+        android:id="@+id/pgb_outter_storage"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:max="100"
+        android:progress="60"
+        android:progressDrawable="@drawable/soft_mgr_pgb_outer_layer" />
+
+    <TextView
+        android:id="@+id/txt_outer_mem_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:gravity="right"
+        android:textSize="15sp" />
+
+</LinearLayout>

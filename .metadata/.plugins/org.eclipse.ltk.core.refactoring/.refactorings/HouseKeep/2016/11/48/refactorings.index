@@ -1,0 +1,34 @@
+1479695177515	Delete element
+1479696636555	Delete element
+1479700016136	Rename resource 'tel_mgr_txt_speed_circle_shape_normal.xml'
+1479700034686	Rename resource 'tel_mgr_txt_speed_circle_shape_pressed.xml'
+1479700247080	Rename resource 'tel_mgr_menu_circle_shape_normal.xml'
+1479700281497	Rename resource 'tel_mgr_menu_circle_yellow_norma_shapel.xml'
+1479700288497	Rename resource 'tel_mgr_menu_circle_red_norma_shapel.xml'
+1479700306036	Delete element
+1479700308796	Delete element
+1479700387922	Rename resource 'tel_mgr_menu_circle_red_normal_shapel.xml'
+1479700394780	Rename resource 'tel_mgr_menu_circle_yellow_normal_shapel.xml'
+1479705372781	Rename resource 'main_menu_txt_speed_circle_shape_normal.xml'
+1479705382998	Rename resource 'main_menu_txt_speed_circle_shape_pressed.xml'
+1479705533086	Rename resource 'tel_menu_bg_yellow_selector.xml'
+1479705541479	Rename resource 'tel_menu_bg_red_selector.xml'
+1479705549614	Rename resource 'tel_menu_bg_green_selector.xml'
+1479705635304	Rename resource 'tel_mgr_menu_circle_green_normal_shape.xml'
+1479705643096	Rename resource 'tel_mgr_menu_circle_red_normal_shape.xml'
+1479705650180	Rename resource 'tel_mgr_menu_circle_yellow_normal_shape.xml'
+1479705725558	Rename type 'TelMgrActivity'
+1479705794372	Rename resource 'item_tel_mgr_main_menu.xml'
+1479706158522	Delete element
+1479706179227	Delete element
+1479706296865	Rename type 'TelMgrAdapter'
+1479707822293	Delete element
+1479737098725	Rename type 'TelInfoActivity'
+1479739505595	Delete element
+1479745234454	Delete element
+1479745630524	Move packages
+1479745642876	Move folder
+1479745667990	Move folder
+1479745707732	Copy files
+1479745736109	Copy files
+1479745754680	Copy files

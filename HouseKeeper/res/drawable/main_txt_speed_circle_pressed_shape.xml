@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- main center speed text shape -->
+    <!-- set widget radius in corner -->
+    <corners android:radius="15dp" />
+    <!-- fill color -->
+    <solid android:color="@color/main_center_txt_speed_pressed" />
+
+    <!-- text padding -->
+    <padding
+        android:left="5dp"
+        android:right="5dp" />
+
+</shape>

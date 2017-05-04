@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CleanActivity" >
+
+    <include
+        android:id="@+id/layout_clean_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <include
+        android:id="@+id/layout_clean_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_header_height"
+        android:layout_below="@+id/layout_clean_title"
+        layout="@layout/layout__clean_header" />
+
+    <ExpandableListView
+        android:id="@+id/elv_clean_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_clean_bottom"
+        android:layout_below="@+id/layout_clean_header" >
+    </ExpandableListView>
+
+    <ImageView
+        android:id="@+id/img_clean_load"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_clean_bottom"
+        android:layout_below="@+id/layout_clean_header"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/clean_image_load_description"
+        android:src="@drawable/ic_check_progress_bg" />
+
+    <LinearLayout
+        android:id="@+id/layout_clean_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/chb_selete_all"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bottom_widget_height"
+            android:button="@drawable/check_box_selector" />
+
+        <Button
+            android:id="@+id/btn_clean_seleted"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_widget_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_file_detail_selector"
+            android:text="@string/clean_select_file"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

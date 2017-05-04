@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">局域聊天</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">局域聊天</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_personal_chat">PersonalChatActivity</string>
+    <string name="title_activity_receive_personal_chat">ReceivePersonalChatActivity</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- speed circle arc -->
+
+    <com.zx.housekeeper.view.CircleArcView
+        android:id="@+id/circle_arc_main_center"
+        android:layout_width="@dimen/main_center_circle_arc_width"
+        android:layout_height="@dimen/main_center_circle_arc_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <!-- main surface center circle -->
+
+    <ImageView
+        android:id="@+id/img_main_center"
+        android:layout_width="@dimen/main_center_img_width"
+        android:layout_height="@dimen/main_center_img_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:contentDescription="@string/main_center_img_description"
+        android:src="@drawable/main_center_circle_selector" />
+
+    <!-- text of speed up -->
+
+    <TextView
+        android:id="@+id/txt_homeclear_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_ram_percent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/home_cleararc_text_bottom"
+        android:background="@drawable/main_txt_speed_selector"
+        android:clickable="true"
+        android:text="@string/home_clear"
+        android:textColor="@color/white"
+        android:textSize="@dimen/home_cleararc_text_textsize" />
+
+    <!-- code of % -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_ram_percent"
+        android:layout_alignBottom="@+id/txt_ram_percent"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/txt_ram_percent"
+        android:text="@string/mem_percent" />
+
+    <!-- memory percent -->
+
+    <TextView
+        android:id="@+id/txt_ram_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/home_cleararc_score_top"
+        android:text="@string/num_mem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/home_cleararc_score_textsize"
+        android:textStyle="bold" />
+
+</RelativeLayout>

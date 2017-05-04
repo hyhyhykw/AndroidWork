@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SoftMgrActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        layout="@layout/layout_soft_mgr_header" />
+
+    <ListView
+        android:id="@+id/lst_soft_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+1479979690488	Delete element
+1479980539213	Rename resource 'layout_title_bar.xml'
+1479986213875	Delete element
+1479987368989	Encapsulate field 'file'
+1480036115763	Rename type 'FILETYPE'
+1480037703413	Rename resource 'icon_file_music.png'
+1480072057143	Encapsulate field 'fileName'
+1480072062218	Encapsulate field 'suffix'
+1480074905008	Delete element
+1480077059538	Rename method 'fenbian'
+1480077113567	Rename method 'resolute'

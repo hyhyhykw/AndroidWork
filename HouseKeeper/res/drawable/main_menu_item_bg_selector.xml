@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- main menu item selector -->
+    <!-- title bar button seletor -->
+    <!-- display when you press -->
+    <item android:drawable="@drawable/home_entry_item_pressed" android:state_pressed="true"></item>
+    <!-- default -->
+    <item android:drawable="@drawable/home_entry_item_normal"></item>
+
+</selector>

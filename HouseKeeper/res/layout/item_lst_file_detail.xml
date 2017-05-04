@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true"
+    android:background="@drawable/main_menu_item_bg_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:padding="10dp" >
+
+    <CheckBox
+        android:id="@+id/chb_select"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/file_detail_widget_size"
+        android:button="@drawable/check_box_selector"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+         />
+
+    <ImageView
+        android:id="@+id/img_file_icon"
+        android:layout_width="@dimen/file_detail_widget_size"
+        android:layout_height="@dimen/file_detail_widget_size"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/chb_select"
+        android:contentDescription="@string/file_icon_description"
+        android:src="@drawable/icon_file" />
+
+    <TextView
+        android:id="@+id/txt_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img_file_icon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/img_file_icon"
+        android:text="@string/txt_file_name_default"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_file_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_file_icon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/img_file_icon"
+        android:text="@string/txt_file_time_default"
+        android:textSize="@dimen/file_detail_txt_size" />
+
+    <TextView
+        android:id="@+id/txt_file_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_file_time"
+        android:layout_alignParentRight="true"
+        android:text="@string/txt_file_size_default"
+        android:textSize="@dimen/file_detail_txt_size" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="LeadTheme" parent="android:style/Theme.Light.NoTitleBar.Fullscreen"></style>
+
+    <style name="LogoTheme" parent="android:style/Theme.Light.NoTitleBar"></style>
+
+    <style name="SettingPage">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/set_item_textsize</item>
+        <item name="android:layout_height">@dimen/set_item_height</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="file_mgr_text_common_attr">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="pie_chart_text_style">
+        <item name="android:layout_height">@dimen/pie_chart_rectf_size</item>
+        <item name="android:layout_width">@dimen/pie_chart_rectf_size</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+</resources>

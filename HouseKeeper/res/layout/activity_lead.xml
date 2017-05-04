@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeadActivity" >
+
+    <!-- ViewPager -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- text of direct skip -->
+
+    <TextView
+        android:id="@+id/txt_lead_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/txt_lead_margin_right"
+        android:layout_marginTop="@dimen/txt_lead_margin_top"
+        android:background="@null"
+        android:text="@string/txt_lead_skip"
+        android:textSize="@dimen/txt_lead_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <!-- three point -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/layout_lead_margin_bottom" >
+
+        <!-- point one -->
+
+        <ImageView
+            android:id="@+id/img_lead_point1"
+            android:layout_width="@dimen/leadicon_width"
+            android:layout_height="@dimen/leadicon_height"
+            android:layout_margin="@dimen/leadicon_margin"
+            android:contentDescription="@string/leadtext_description1"
+            android:src="@drawable/adware_style_selected" />
+
+        <!-- point two -->
+
+        <ImageView
+            android:id="@+id/img_lead_point2"
+            android:layout_width="@dimen/leadicon_width"
+            android:layout_height="@dimen/leadicon_height"
+            android:layout_margin="@dimen/leadicon_margin"
+            android:contentDescription="@string/leadtext_description2"
+            android:src="@drawable/adware_style_default" />
+
+        <!-- point three -->
+
+        <ImageView
+            android:id="@+id/img_lead_point3"
+            android:layout_width="@dimen/leadicon_width"
+            android:layout_height="@dimen/leadicon_height"
+            android:layout_margin="@dimen/leadicon_margin"
+            android:contentDescription="@string/leadtext_description3"
+            android:src="@drawable/adware_style_default" />
+    </LinearLayout>
+
+</RelativeLayout>

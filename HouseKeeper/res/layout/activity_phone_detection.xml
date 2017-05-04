@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhoneDetectionActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_phone_battery_height"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/main_menu_item_bg_selector"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:onClick="batteryClick"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <ProgressBar
+            android:id="@+id/pgb_battery_info"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/battery_height"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/soft_mgr_pgb_outer_layer" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="60dp"
+            android:background="@color/free_storage"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/txt_battery_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/txt_battery_percent_default"
+            android:textColor="@color/battery_percent_text_color" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_phone_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

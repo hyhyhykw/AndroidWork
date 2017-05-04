@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_item_bg_selector"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/item_grd_padding" >
+
+    <!-- GridView item -->
+
+    <ImageView
+        android:id="@+id/img_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/main_menu_img_description"
+        android:src="@drawable/icon_filemgr" />
+
+    <TextView
+        android:id="@+id/txt_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/main_menu_text" />
+
+</LinearLayout>

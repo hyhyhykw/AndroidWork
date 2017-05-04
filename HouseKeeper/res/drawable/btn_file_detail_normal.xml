@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- button default style -->
+    <!-- bottom button radiu of corner -->
+    <corners android:radius="10dp" />
+
+    <!-- solid color -->
+    <solid android:color="#ff009acd" />
+
+</shape>

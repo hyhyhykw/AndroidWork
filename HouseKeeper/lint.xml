@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/zx/housekeeper/SpeedUpActivity.java" />
+        <ignore path="src/com/zx/housekeeper/biz/FileUitls.java" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/zx/housekeeper/view/CircleArcView.java" />
+        <ignore path="src/com/zx/housekeeper/view/PieChartView.java" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/zx/housekeeper/CleanActivity.java" />
+        <ignore path="src/com/zx/housekeeper/FileMgrActivity.java" />
+        <ignore path="src/com/zx/housekeeper/PhoneDetectionActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/zx/housekeeper/biz/MemManager.java" />
+    </issue>
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/zx/housekeeper/biz/DataUitls.java" />
+        <ignore path="src/com/zx/housekeeper/biz/DataUtils.java" />
+        <ignore path="src/com/zx/housekeeper/biz/DateUitls.java" />
+    </issue>
+</lint>

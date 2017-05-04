@@ -1,0 +1,20 @@
+1480654204101	Rename method 'getData'
+1480662374061	Rename local variable 'view1'
+1480662401130	Rename local variable 'view2'
+1480662416717	Rename local variable 'view3'
+1480662615407	Copy file
+1480662641684	Delete element
+1480662993573	Rename local variable 'rootView'
+1480666491495	Rename local variable 'adapter'
+1480666743438	Rename local variable 'innerAdapter'
+1480667438460	Delete element
+1480667789239	Rename field 'views'
+1480669636792	Copy file
+1480669767921	Delete elements
+1480676846271	Copy compilation unit
+1480676858642	Rename type 'FileListAdapter'
+1480676893185	Rename field 'listAdapter'
+1480677411905	Delete element
+1480677414862	Delete element
+1480677424813	Rename type 'InnerFileListAdapter'
+1480677432328	Delete element

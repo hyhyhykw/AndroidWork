@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#ffbb33</color>
+    <color name="green">#66cc33</color>
+    <color name="gray">#b5b2b2</color>
+    <color name="file_mgr_blue">#1122cc</color>
+    <color name="text_file_num_color">#ff8c00</color>
+    <color name="free_storage">#ff8c00</color>
+    <color name="main_center_txt_speed">#ffaa1266</color>
+    <color name="main_center_txt_speed_pressed">#ffaa7799</color>
+    <color name="clean_header_color">#00b810</color>
+    <color name="storage_inner_color_blue">#000099</color>
+    <color name="storage_outer_color_green">#00aa00</color>
+    <color name="battery_percent_text_color">#00aa00</color>
+    <color name="speed_up_pgb_bg_color">#d9d9d9</color>
+    <color name="speed_up_pgb_and_txt_color">#33ccff</color>
+    <color name="system_process_txt_color">#B13D3D</color>
+
+</resources>
